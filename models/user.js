@@ -6,6 +6,10 @@ const foodSchema = new mongoose.Schema({
     required: true,
 
   },
+  quantity: {
+    type: Number,
+    required: true,
+  }
 });
 
 const userSchema = mongoose.Schema({
